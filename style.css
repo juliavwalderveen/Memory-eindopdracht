@@ -1,0 +1,20 @@
+#grid {
+    max-width: 100vw;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 100px; 
+    height: 100px; 
+    margin: 5px; 
+}
+
+label {
+    padding: 5px 10px; /* Binnenruimte van de labels */
+    background-color:#FFBFCD; /* Achtergrondkleur van de labels */
+    border-radius: 5px; /* Afgeronde hoeken voor de labels */
+}
